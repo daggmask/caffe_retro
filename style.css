@@ -35,38 +35,43 @@
     font-size: 30px;
     background-color: red;
     color: white;
-    position: absolute;
+    position: relative;
     text-align: center;
+    left: 150px;
     padding: 5px;
     margin-left: 400px;
     margin-top: 100px;
     opacity: 0.8;
+    display: inline-block;
 }
 .otherText2{
     font-family: 'Poiret One', cursive;
     font-size: 30px;
     background-color: red;
     color: white;
-    position: absolute;
+    position: relative;
     text-align: center;
     padding: 5px;
     margin-left: 700px;
-    margin-top: 200px;
+    margin-top: 50px;
     opacity: 0.8;
+    display: inline-block;
 }
 .otherText3{
     font-family: 'Poiret One', cursive;
     font-size: 30px;
     background-color: black;
     color: white;
-    position: absolute;
-    text-align: center;
+    position: relative;
+    text-align: left;;
     padding: 5px;
-    margin-left: 700px;
-    margin-top: 300px;
+    left: 40px;
+    margin-left: 650px;
+    margin-top: 100px;
     opacity: 0.8;
     list-style-type: none;;
     padding: 20px 20px;
+    display: inline-block;
 }
 .topFoot{
     position: fixed;
@@ -77,19 +82,36 @@
     margin: 0px;
     z-index: +1;
 }
-.head{
-    text-align: center;  
+.head1{
     font-family: 'Spirax', cursive;
     font-size: 80px;
     color: red;
     margin: 0px;
-    margin-top: 100px;
+    position: relative;
+    top: 10%;
+    left: 50%;
     
 }
+
 body{
     overflow: scroll;
     margin: 0px;
 }
 span{
-    margin-left: 350px;
+    padding: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.t1{
+text-align: left;
+}
+.t2{
+    padding-left: 60px;
+    text-align: right;
+}
+html{
+    scroll-behavior: smooth;
 }
